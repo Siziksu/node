@@ -1,0 +1,35 @@
+
+ol.list {
+    color: #cccccc;
+    list-style-type: none;
+}
+
+ol.list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
+}
+
+ol.list li span.number {
+    margin-left: 5px;
+    font: bold normal 25px "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    position: absolute;
+}
+
+ol.list li span {
+    margin-left: 50px;
+    color: #333333;
+}
+
+ol.list li p {
+    margin-left: 50px;
+    color: #555555;
+}
+
+ol.list li:last-child {
+    border: none;
+}
+
+ol.list li:hover {
+    background: #e8edff;
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Trinity",
+        "description": "Trinity is a support-based Warframe. Her abilities favour restoration and preservation over destruction. Draining powers turn her enemies into conduits of life and energy, while defensive powers redirect and dissipate attacks upon herself and her team."
+    },
+    {
+        "id": 2,
+        "name": "Mirage",
+        "description": "Mysterious and mischievous, Mirage manipulates the spectrum of light to dazzle her foes. With deceitful mirror images, every battlefield becomes the stage for her next performance."
+    },
+    {
+        "id": 3,
+        "name": "Loki",
+        "description": "Loki is a fragile but fast manipulator Warframe. He has little in the way of direct damage abilities, instead focusing on the arts of distraction, deception, sabotage, relocation and stealth."
+    }
+]

@@ -1,0 +1,51 @@
+<div class='container center-content'>
+    <div class='block'>
+        <div class='form float-left'>
+            <h1>Add user</h1>
+            <p>User:</p>
+            <input type='text' name='name' ng-model='name'><br />
+            <p>Password:</p>
+            <input type='password' name='password' ng-model='password'>
+            <div class='v-space'></div>
+            <button ng-click='addUser(name, password)' ng-disabled="name == undefined || name == '' || password == undefined || password == ''">
+                Add user
+            </button>
+            <button ng-click='restore()'>Restore</button>
+        </div>
+
+        <div class='h-space float-left'></div>
+
+        <div class='form float-left'>
+            <h1>User list</h1>
+            <div class="search">
+                <input type='text' placeholder='Search...' ng-model='search' />
+            </div>
+
+            <div class='v-space'></div>
+
+            <table class='box-table' summary='Users'>
+                <thead>
+                    <tr>
+                        <th scope='col'>Id</th>
+                        <th scope='col'>Name</th>
+                        <th scope='col'>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat='item in users | filter:search | limitTo:limit' ng-click='select(item)'>
+                        <td>{{item.id}}</td>
+                        <td>{{item.name}}</td>
+                        <td>{{item.password}}</td>
+                    </tr>
+                </tbody>
+                <tfoot ng-show='button_compact_text != ""'>
+                    <tr>
+                        <td colspan="3">
+                            <button ng-click='compact()'>{{button_compact_text}}</button>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

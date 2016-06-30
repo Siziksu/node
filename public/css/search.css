@@ -1,0 +1,10 @@
+.search {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.search-box:focus {
+    border: 1px solid #66afe9;
+    outline: 0;
+}

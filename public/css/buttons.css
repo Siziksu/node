@@ -1,0 +1,27 @@
+button {
+    font-size: 15px;
+    background-color: #a73f2d;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #7a2a1d;
+}
+
+button:hover {
+    background-color: #b34332;
+}
+
+button:active {
+    position:relative;
+    top:1px;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    color: #777777;
+    text-shadow: 0 -1px 0 #cccccc;
+}

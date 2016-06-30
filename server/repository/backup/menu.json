@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Barcelona",
+        "url": "barcelona"
+    },
+    {
+        "id": 2,
+        "title": "Warframes",
+        "url": "warframes"
+    },
+    {
+        "id": 3,
+        "title": "Users",
+        "url": "users"
+    },
+    {
+        "id": 4,
+        "title": "Details",
+        "url": "details"
+    }
+]

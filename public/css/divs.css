@@ -1,0 +1,31 @@
+div.v-space {
+    height: 20px;
+    width: 5px;
+    background: transparent;
+}
+
+div.h-space {
+    height: 5px;
+    width: 20px;
+    background: transparent;
+}
+
+div.container {
+    border-radius: 5px;
+    background: rgba(102, 153, 153, .5);
+    padding: 20px;
+    overflow: hidden;
+}
+
+div.float-left {
+    float: left;
+}
+
+div.block {
+    display: inline-block;
+    overflow: hidden;
+}
+
+div.center-content {
+    text-align: center;
+}

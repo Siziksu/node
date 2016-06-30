@@ -1,0 +1,21 @@
+<div class='container'>
+    <div class='form'>
+        <h1>{{details_title}}</h1>
+        <div>
+            <select ng-change="getDetailsOf()" ng-model="user_selected" ng-options="user.name for user in users">
+                <option>--</option>
+            </select>
+        </div>
+    </div>
+
+    <div class='v-space'></div>
+
+    <div class='form'>
+        <h1>Details</h1>
+        <div>
+            <p>Id: {{user_details.id}}</p>
+            <p>Name: {{user_details.name}}</p>
+            <p>Password: {{user_details.password}}</p>
+        </div>
+    </div>
+</div>

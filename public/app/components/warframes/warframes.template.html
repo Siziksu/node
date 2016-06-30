@@ -1,0 +1,10 @@
+<div>
+    <h3>{{warframes_title}} ({{warframes.length}})</h3>
+    <ol class='list'>
+        <li ng-repeat='item in warframes'>
+            <span class='number'>{{item.id}}</span>
+            <span><b>{{item.name}}</b></span>
+            <p>{{item.description}}</p>
+        </li>
+    </ol>
+</div>
